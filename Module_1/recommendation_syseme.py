@@ -7,7 +7,6 @@ name_collection="collection_book"
 ef = embedding_functions.SentenceTransformerEmbeddingFunction(
     model_name="all-MiniLM-L6-v2"
 )
-
 def main():
 
     collection = client.create_collection(
